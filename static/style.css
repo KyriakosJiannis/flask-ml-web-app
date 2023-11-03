@@ -1,0 +1,73 @@
+/* Center the form vertically and horizontally */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the form and input fields */
+form {
+    width: 300px; /* Set a fixed width for the form */
+    text-align: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+form input {
+    width: 100%; /* Make input fields stretch to the full width of the form */
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* Style the submit button */
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Add spacing for the result section */
+#result {
+    margin-top: 20px;
+}
+
+/* Style the table */
+table {
+    width: 300px; /* Set a fixed width for the table to match the form width */
+    border-collapse: collapse;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Style the image with spacing */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}

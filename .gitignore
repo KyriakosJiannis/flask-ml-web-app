@@ -1,0 +1,45 @@
+# Python specific
+*.pyc
+__pycache__/
+venv/
+*.db
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+db.sqlite
+
+# Environment
+.env
+.env.*
+
+# IDE-specific files and directories
+.vscode/
+.idea/
+*.code-workspace
+
+# Web assets
+node_modules/
+__pycache__/
+.venv/
+.cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Exclude the environment.yml file
+environment.yml
