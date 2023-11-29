@@ -13,7 +13,7 @@ It uses a trained machine learning model to predict the species of an Iris flowe
 1. Clone the Repository: Clone the project repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/yourusername/flask-ml-web-app
+git clone https://github.com/KyriakosJiannis/flask-ml-web-app
 ```
 2. Navigate to the Project Directory: Move to the project directory:
 
@@ -82,6 +82,5 @@ The project directory is organized as follows:
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-Feel free to customize and expand upon this project for your own needs. If you have any questions or need assistance, please don't hesitate to reach out.
-Happy coding!
+
 
